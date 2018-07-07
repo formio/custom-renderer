@@ -4,7 +4,7 @@ module.exports = {
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'formio.full.min.js'
+    filename: 'formio.custom.min.js'
   },
   module: {
     rules: [
