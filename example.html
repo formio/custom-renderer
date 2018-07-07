@@ -1,0 +1,18 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+    <script src="dist/formio.full.min.js"></script>
+</head>
+<body>
+<div id="formio"></div>
+<script type="text/javascript">
+    Formio.createForm(document.getElementById('formio'), 'https://examples.form.io/example', {
+      hideComponents: {
+        firstName: true,
+        lastName: true
+      }
+    });
+</script>
+</body>
+</html>
